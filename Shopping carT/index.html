@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button class="btn-1" onclick="logout()">Log out</button>
+            <h1>PRODUCT LIST</h1>
+            <div class="iconCart">
+                <img src="th.jpg">
+                <div class="totalQuantity">0</div>
+            </div>
+        </header>
+
+        <div class="listProduct">
+            <div class="item">
+                <img src="popular4.png" >
+                <h2>Product Name</h2>
+                <div class="price">$50</div>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="Cart">
+        <h2>CART</h2>
+        <div class="listCart">
+            <div class="item">
+                <img src="popular4.png">
+                <div class="content">
+                    <div class="name">Product Name</div>
+                    <div class="price">$50/1</div>
+                    <div class="quantity">
+                        <button>-</button>
+                        <span class="value">3</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Buttons">
+            <div class="close">CLOSE</div>
+            <div class="Checkout">
+                <a href="CheckOut.html">CHECKOUT</a>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
